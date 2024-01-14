@@ -77,7 +77,7 @@ Here is an overview
 
 - This model was deployed into a Dockerised FastAPI Server that was Monitored by Kibana. This server interacted with the Scala Pipeline in a Bidirectional manor, sending data via JSON.
 
-- The reason for this is that we were working with a Scala pipeline, the on-prems system had Python 3.6 installed (TensorFlow LTR needed Python 3.8). 
+- The reason for this is that we were working with a Scala pipeline, the on-prems system had Python 3.6 installed (TensorFlow LTR needed Python 3.8).
 
 - Here is the updated pipeline.
 
@@ -104,3 +104,7 @@ Here is an overview
 - Demo my updates in each meeting.
 
 - Generally, being more confident in voicing my concerns.
+
+- If I was the lead developer on this project, this is what I would build.
+
+![My vision](my_design.drawio.png)
