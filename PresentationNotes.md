@@ -15,7 +15,7 @@
   - Performing regex checks.
   - Performing filtering logic.
 
-Here is an overview and all of the pipelines being shown is on-prems
+Here is an overview and all of the pipelines being shown is on-prems. This is a Lambda Architecture being run once a day.
 
 ![Inital Pipeline](Initial_pipeline.drawio.png)
 
