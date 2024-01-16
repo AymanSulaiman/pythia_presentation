@@ -15,7 +15,7 @@
   - Performing regex checks.
   - Performing filtering logic.
 
-Here is an overview and everything is on-prems
+Here is an overview and all of the pipelines being shown is on-prems
 
 ![Inital Pipeline](Initial_pipeline.drawio.png)
 
@@ -59,8 +59,6 @@ Here is an overview and everything is on-prems
 
 - Split into two paths to A/B test the Learning to Rank Model compared to the rules model.
 
-- This was in parallel with the rules based system being developed. So this was being A/B tested compared to the rules based model.
-
 - Given that we had a source of truth from the Medical Coders from the Network of Hospitals, A custom Learning To Rank Model was created.
 
 - Here are the features and target of the model.
@@ -69,9 +67,9 @@ Here is an overview and everything is on-prems
 |--------------|---------------------|--------|
 | ICD 10 code  | ICD 10 Description  | Rank   |
 
-- I am more familiar with Keras/TensorFlow than PyTorch and using the Keras Tuner was used to Fine tune the model later on.
+- I am more familiar with Keras/TensorFlow than PyTorch and using the Keras Tuner was used to Fine Tune the model later on.
 
-- The metrics used was [OrderedPairAccuracy Metrics](https://www.tensorflow.org/ranking/api_docs/python/tfr/keras/metrics/OPAMetric), [PrecisionMetric](https://www.tensorflow.org/ranking/api_docs/python/tfr/keras/metrics/PrecisionMetric) and [MeanAveragePrecisionMetric](https://www.tensorflow.org/ranking/api_docs/python/tfr/keras/metrics/MeanAveragePrecisionMetric) during the fitting of the model, [Spearmans Rank Coefficient](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html) was used to measure the data post prediction.
+- The metrics used were [OrderedPairAccuracy Metrics](https://www.tensorflow.org/ranking/api_docs/python/tfr/keras/metrics/OPAMetric), [PrecisionMetric](https://www.tensorflow.org/ranking/api_docs/python/tfr/keras/metrics/PrecisionMetric) and [MeanAveragePrecisionMetric](https://www.tensorflow.org/ranking/api_docs/python/tfr/keras/metrics/MeanAveragePrecisionMetric) during the fitting of the model, [Spearmans Rank Coefficient](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html) was used to measure the data post prediction.
 
 - Worked on this with a Senior Engineer who helped guide me in the right engineering direction whilst I helped him understand the ML side of things.
 
