@@ -10,12 +10,12 @@
 
 - So building this would reduce the Prior Authourisation Time for care and increase `Utilisation Management`.
 
-- The data itself was scanned documents that went through many processed to be stored in a Postgres database. The data was purely EHR data and the goal was to transform several through the following methods:
-  - Mapping data onto each other datasets.
+- The data itself was scanned documents that went through many processes to be stored in a Postgres database. The data was purely EHR data and the goal was to transform several through the following methods:
+  - Mapping data onto other datasets.
   - Performing regex checks.
   - Performing filtering logic.
 
-Here is an overview
+Here is an overview and everything is on-prems
 
 ![Inital Pipeline](Initial_pipeline.drawio.png)
 
@@ -27,7 +27,7 @@ Here is an overview
 
 > ## Example
 >
-> ## Other anxiety disorders F41-
+> ## [https://www.icd10data.com/ICD10CM/Codes/F01-F99/F40-F48/F41-](Other anxiety disorders F41-)
 >
 > Type 2 Excludes:
 >
@@ -49,7 +49,7 @@ Here is an overview
 
 - I voiced this concern and advocated for an alternative solution using a [Learning to Rank Model built in TensorFlow](https://www.tensorflow.org/ranking).
 
-- Since Learning to Rank required a ground truth, this was better than clustering and would be as good as guessing. With Learning to Rank it would be more likely that it would provide better results given the ground truth.
+- Since Learning to Rank required a ground truth, this was better than clustering and this would be as good as guessing. With Learning to Rank it would be more likely that it would provide better results given the ground truth.
 
 ## Task
 
