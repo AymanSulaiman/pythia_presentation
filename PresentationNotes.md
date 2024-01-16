@@ -27,7 +27,7 @@ Here is an overview and everything is on-prems
 
 > ## Example
 >
-> ## [https://www.icd10data.com/ICD10CM/Codes/F01-F99/F40-F48/F41-](Other anxiety disorders F41-)
+> ## [Other anxiety disorders F41-](https://www.icd10data.com/ICD10CM/Codes/F01-F99/F40-F48/F41-)
 >
 > Type 2 Excludes:
 >
