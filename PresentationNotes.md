@@ -40,7 +40,7 @@ Here is an overview and all of the pipelines being shown is on-prems. This is a 
 >
 > ### Codes
 >
-> - F41 Other anxiety disorders
+> - F41 Other anxiety disorders:
 >   - F41.0 Panic disorder [episodic paroxysmal anxiety]
 >   - F41.1 Generalized anxiety disorder
 >   - F41.3 Other mixed anxiety disorders
@@ -79,7 +79,7 @@ Here is an overview and all of the pipelines being shown is on-prems. This is a 
 
 - Here is the updated pipeline.
 
-![Inital Pipeline](pipeline_with_LTR_model.drawio.png)
+![LTR Pipeline](pipeline_with_LTR_model.drawio.png)
 
 ## Result
 
