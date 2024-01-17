@@ -1,5 +1,7 @@
 # ICD 10 Ranking Component for Large ETL Pipeline for a Hospital Network
 
+[Presentation](https://docs.google.com/presentation/d/1MIN5MkzDEZDoNgAYigtMh4zMr7dFaXhTbt_ZYGYnbxI/edit?usp=sharing)
+
 ## Background
 
 - Brought on to build a large scala based ETL pipeline to automate medical coding and to digitise the physical Healthcare Records to Electronic Healthcare Records (EHR) for a network of hospitals.
